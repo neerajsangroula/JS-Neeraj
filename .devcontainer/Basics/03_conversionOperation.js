@@ -14,7 +14,7 @@ let valueInNumber = Number(score)
 let isLoggedIn = "Neeraj" // cpnverting number into booleam
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+//console.log(booleanIsLoggedIn)
 
 // 1=> True , 0=> False
  // "" => False
@@ -23,5 +23,21 @@ console.log(booleanIsLoggedIn)
  let someNumber = 33
 
  let stringNumber = String (someNumber)
- console.log(stringNumber);
- console.log(typeof stringNumber);
+ //console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+ //*******operations**************
+console.log("1" + 2);
+console.log(2+ 2+ "1" + 2); // If string comes first then all will be reated as string amd of number comes first then it will be treated as number after string
+
+
+
+let x= 3
+const y= x++
+
+console.log(x,y);
+
+let a= 3
+const b= ++a
+console.log(a,b);
