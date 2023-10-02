@@ -12,7 +12,9 @@ const isLoggedIn= true
 const outTemp = null
 let userEmail = undefined
 
+const id = Symbol ("123")
 
+const pi = 123456n
 
 // Non-Primitive (Reference type)
 
